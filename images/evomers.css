@@ -245,5 +245,24 @@ ul{
         display: flex;
         flex-direction: column;
     }
+     .navbar_links{
+        display: none;
+    }
+    .navbar_header{
+       margin-left: 180px;
+    }
+
+    .navbar_btn{
+        align-self: center;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    .bar1,.bar2,.bar3{
+        width: 20px;
+        height: 1px;
+        margin: 0.5rem;
+        background: rgb(30, 37, 23);
+        
+    }
 
 }
