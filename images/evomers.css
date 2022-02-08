@@ -241,6 +241,12 @@ ul{
         display: flex;
         flex-direction: column;
     }
+     .testimonial{
+        width: 300px;
+        margin: 10px;
+        padding: 0;
+
+    }
      .navbar_links{
         display: none;
     }
