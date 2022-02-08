@@ -245,7 +245,7 @@ ul{
         display: none;
     }
     .navbar_header{
-       margin-left: 150px;
+       margin-left: 140px;
     }
 
     .navbar_btn{
@@ -254,11 +254,21 @@ ul{
         cursor: pointer;
     }
     .bar1,.bar2,.bar3{
-        width: 20px;
-        height: 1px;
-        margin: 0.5rem;
+        width: 16px;
+        height: 0.6px;
+        margin: 0.3rem;
         background: rgb(30, 37, 23);
         
     }
+    .logo{
+        width: 50px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 10px;
+    }
+    
 
 }
